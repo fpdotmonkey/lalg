@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 664494591e896017c9c2fc4808ad95941f3b18b5017c54cc4bc5609567a0313a # shrinks to a = Matrix { data: [[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]] }, b = Matrix { data: [[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, -0.0, 0.0], [0.0, 0.0, 0.0, 4.416827975078619e-293]] }, c = Matrix { data: [[0.0, 0.0, -0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]] }
+cc 05b41f3321993917d1cada0dec18b206dc6037153941e1cb884b4d5f1f9125cf # shrinks to a = [0.0, 0.0, 0.0; 0.0, 0.0, 0.0; 0.0, 0.0, 0.0; 2869519002.676444, -6379780706.703413, 0.0], b = [0.0, 0.0, 0.0, -9665833971.720055; 0.0, 0.0, 0.0, -2815450938.85473; 0.0, 0.0, 0.0, 0.0], scalar = 1.5077799840786302e289
